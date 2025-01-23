@@ -1,0 +1,129 @@
+.sectionfour h2{
+
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.sectionfour  p{
+
+    color: gray;
+    text-align: center;
+    font-size: 18px;
+}
+
+.sortsearch{
+
+    display: flex;
+   gap: 30px;
+}
+
+.sortsearch form input{
+
+    border: 1px solid rgb(65, 140, 170);
+    outline:1px solid rgb(65, 140, 170) ;
+    padding: 5px 10px ;
+    border-radius: 20px;
+}
+
+.sortsearch form button{
+
+    border: 1px solid rgb(65, 140, 170);
+    background-color:rgb(65, 140, 170) ;
+    color: white;
+    padding: 5px 10px ;
+    border-radius: 15px;
+
+}
+
+.sortsearch form{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(65, 140, 170);
+}
+
+.sortsearch select{
+
+    padding: 5px 10px;
+    border: 1px solid rgb(65, 140, 170);
+    outline:1px solid rgb(65, 140, 170) ;
+    border-radius: 15px;
+    color:rgb(65, 140, 170) ;
+}
+
+.sortsearch{
+
+   
+    width: 30%;
+    margin: 20px auto;
+}
+
+.sectionfour-cards{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin:30px auto ;
+    gap: 20px;
+}
+
+.sectionfour-card{
+
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    min-width: 23%;
+    border: 2px solid rgb(65, 140, 170);
+    border-radius: 15px;
+    background-color: rgb(247, 247, 247);
+}
+
+.sectionfour-card img{
+    width: 80%;
+    height: 35vh;
+    border-radius: 15px;
+    
+}
+
+.sectionfour-card h3,h4{
+
+    text-align: center;
+}
+
+.fourbtn{
+
+    display: flex;
+    gap: 20px;
+
+}
+
+.heart{
+
+    border: none;
+    padding: 5px 10px ;
+    border-radius: 5px;
+    background-color: rgb(33, 101, 33);
+    color: white;
+}
+
+.info{
+
+    border: none;
+    padding: 5px 10px ;
+    border-radius: 5px;
+    background-color: rgb(44, 113, 140);
+    color: white;
+}
+
+.basket{
+
+    border: none;
+    padding: 5px 10px ;
+    border-radius: 5px;
+    background-color: rgb(147, 42, 42);
+    color: white;
+}

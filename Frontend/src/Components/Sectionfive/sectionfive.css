@@ -1,0 +1,29 @@
+.sectionfive-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.sectionfive-card{
+    display: flex;
+    flex-direction: row;
+}
+.sectionfive-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 50px;
+    margin: 0px auto;
+    max-width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sectionfive{
+    /* display: flex; */
+    
+   margin-top: 200px;
+   margin-bottom: 200px ;
+}

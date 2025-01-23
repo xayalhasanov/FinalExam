@@ -1,0 +1,47 @@
+.favoritescards{
+
+    width: 80%;
+    margin: 30px auto;
+   
+    padding: 40px 0px;
+}
+
+.favoritescards .col .card img{
+
+    width: 80%;
+    height: 35vh;
+
+}
+
+.favoritescards .col{
+
+    width: 350px;
+}
+
+.favoritescards .row{
+
+    padding-top: 30px;
+}
+
+.favoritescards .card{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 0px;
+}
+
+.favoritebtn{
+    display: flex;
+    gap: 10px;
+}
+
+.favoritespage .h1{
+
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

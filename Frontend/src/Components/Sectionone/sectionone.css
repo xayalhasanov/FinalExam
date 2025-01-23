@@ -1,0 +1,63 @@
+.sectionone{
+
+    height: 90vh;
+    background-color: #F63991;
+    display: flex;
+    position: relative;
+  
+}
+
+.sectionone img{
+
+    width: 1000px;
+    height: 700px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.sectionone .onetexts{
+
+    position: absolute;
+    left: 53%;
+    top: 20%;
+}
+
+.onetexts span{
+
+    color: white;
+    display: flex;
+    gap: 10px;
+    align-items: last baseline;
+    font-size: 25px;
+}
+
+.onetexts span h1{
+
+    font-size: 50px;
+}
+
+.onetexts h1{
+
+    font-size: 80px;
+    color: white;
+}
+
+.onetexts button{
+
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+
+@media ( max-width:568px ){
+    .sectionone{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sectionone img{
+        max-width: 568px;
+    }
+    
+}
+

@@ -1,0 +1,109 @@
+.navbarr{
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    background-color: #F9F9FF;
+    padding: 20px 0px;
+}
+
+.navbarr-bg{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.navbarr-right{
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.link1nav{
+
+    text-decoration: none;
+
+    color: black;
+}
+
+.navbarr-right select{
+
+    border: none;
+    outline: none;
+    background-color:#F9F9FF;
+    
+}
+
+.addnav{
+
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: rgb(36, 92, 114);
+    color: white;
+}
+
+.heartnav{
+
+    border: none;
+    padding:  10px;
+    border-radius: 10px;
+    background-color:rgb(34, 92, 34);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.basketnav{
+
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(160, 48, 48);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bars{
+
+    display: none;
+    font-size: 20px;
+}
+
+.navbtnb{
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+@media (max-width: 576px){
+
+    .bars{
+        display: flex;
+    }
+
+    .link1nav{
+        display: none;
+    }
+
+    select{
+
+        display: none;
+    }
+
+    .navbtnb{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+}

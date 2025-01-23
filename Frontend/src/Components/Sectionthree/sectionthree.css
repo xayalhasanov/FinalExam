@@ -1,0 +1,31 @@
+.sectionthree h1{
+
+    text-align: center;
+    color: white;
+}
+
+.sectionthree p{
+    text-align: center;
+    color: white;
+}
+
+.sectionthree{
+
+    background-color:#EC4E8F ;
+    padding:60px 0px 100px ;
+}
+
+.sectionthree-cards{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 20px auto;
+    gap: 30px;
+    color: white;
+    
+
+   
+}
+    

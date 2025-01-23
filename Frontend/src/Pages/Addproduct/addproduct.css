@@ -1,0 +1,37 @@
+.addproduct h1{
+
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.addproduct form{
+
+    width: 30%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   border: 2px solid skyblue;
+   padding: 20px;
+   border-radius: 15px;
+
+}
+
+.addproduct form button{
+
+    width: 100px;
+}
+
+.table{
+
+    width: 40%;
+    margin: 30px auto;
+
+}
+
+.table img
+{
+    width: 80px;
+    height: 80px;
+}

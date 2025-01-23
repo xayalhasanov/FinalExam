@@ -1,0 +1,58 @@
+.sectiontwo h2{
+
+    text-align: center;
+    font-size: 40px;
+   
+
+}
+
+.sectiontwo p{
+
+    text-align: center;
+    color: gray;
+
+}
+
+.sectiontwo-cards{
+
+    width: 80%;
+    margin: 50px auto;
+  
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sectiontwo-card img{
+    height: 28vh;
+    
+
+}
+.sectiontwo-card {
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.twocard{
+    display: flex;
+    gap: 20px;
+}
+
+.sectiontwo-card1 img{
+
+    height: 60vh;
+}
+
+@media ( max-width:568px ){
+    .sectiontwo-cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .twocard{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

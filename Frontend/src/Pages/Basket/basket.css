@@ -1,0 +1,46 @@
+.basketcards .table{
+
+    width: 70%;
+    margin: 30px auto;
+
+}
+
+.basketcards{
+
+    margin: 100px 0px;
+}
+
+.basketcards .table th img{
+
+    width: 80px;
+    height: 80px;
+}
+
+.tdcount button{
+
+    margin: 0px 10px;
+}
+
+.tdbtn button{
+    margin: 0px 10px;
+}
+
+.totalprice{
+
+    border: 2px solid skyblue;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px 20px;
+   position: absolute;
+   left: 15%;
+   font-size: 20px;
+
+}
+
+.basketpage .h1{
+
+ height: 50vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
