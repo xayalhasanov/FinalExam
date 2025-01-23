@@ -21,6 +21,10 @@
     align-items: center;
     gap: 15px;
 }
+.navbarr-right :hover{
+    transition: 0.5s all ease ;
+    background-color: rebeccapurple;
+}
 
 .link1nav{
 

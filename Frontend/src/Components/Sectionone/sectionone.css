@@ -49,6 +49,10 @@
     padding: 10px 30px;
     border-radius: 25px;
 }
+ .onebutton :hover{
+    transition: 0.5s all ease ;
+    background-color: rebeccapurple;
+}
 
 @media ( max-width:568px ){
     .sectionone{

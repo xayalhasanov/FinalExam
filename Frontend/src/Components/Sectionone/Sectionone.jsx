@@ -9,7 +9,7 @@ function Sectionone() {
         <span>Flat <h1>75%Off</h1></span>
         <h1>IT’S HAPPENING <br />
         THIS SEASON!</h1>
-        <button><b>Purchase now</b></button>
+      <div className="onebutton">  <button><b>Purchase now</b></button></div>
     </div>
    </div>
   )
